@@ -40,7 +40,9 @@ The physical topology represents how network devices are physically arranged in 
 
 ### Wi-Fi (Wireless)
 - Smartphone → Router  
-- Tablet → Router  
+- Tablet → Router
+
+All wired devices use FastEthernet interfaces to connect to the router, while wireless devices use the router’s wireless interface.
 
 ---
 
@@ -74,6 +76,10 @@ The logical topology represents how data flows within the network and how device
 ## 🔄 Data Flow
 
 The flow of data in the network follows a centralized pattern where all communication passes through the wireless router.
+
+- All devices communicate through the central wireless router  
+- The router forwards traffic between internal devices and the Internet  
+- Wired and wireless devices can communicate with each other through the router  
 
 ---
 
