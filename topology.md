@@ -75,7 +75,9 @@ The logical topology represents how data flows within the network and how device
 
 ## 🔄 Data Flow
 
-The flow of data in the network follows a centralized pattern where all communication passes through the wireless router.
+The flow of data in the network follows a centralized pattern where all communication passes through the wireless router
+
+Internet → Wireless Router → PC / Laptop / Printer / Smartphone / Tablet
 
 - All devices communicate through the central wireless router  
 - The router forwards traffic between internal devices and the Internet  
