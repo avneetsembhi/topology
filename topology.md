@@ -162,15 +162,32 @@ To securely manage login credentials:
 
 # ✅ 7. Testing and Verification
 
-The following tests were performed to verify network functionality:
+# ✅ 7. Testing and Verification
 
-- Successful **ping tests** between devices
-- Verified **internet connectivity**
-- Confirmed all devices can reach the router
-- Printer accessible from PC and Laptop
+The following tests were performed to verify network functionality and ensure proper communication between all devices:
 
----
+### 🔍 Connectivity Testing
+- Used **ping command** to test communication between:
+  - PC ↔ Laptop  
+  - PC ↔ Printer  
+  - Laptop ↔ Printer  
+- All devices successfully responded, confirming internal network connectivity
 
+### 🌐 Internet Testing
+- Tested internet access from PC and Laptop using a web browser  
+- Successfully accessed external websites, confirming internet connectivity  
 
----
+### 📡 Router Verification
+- Verified all devices can reach the router (default gateway: 192.168.1.1)  
+- Confirmed router is properly routing traffic  
 
+### 🖨️ Printer Testing
+- Printer successfully accessed from PC and Laptop  
+- Confirms proper network sharing and connectivity  
+
+### 📶 Wireless Connectivity
+- Smartphone and Tablet successfully connected via Wi-Fi  
+- Devices received IP addresses using DHCP  
+- Verified stable wireless communication  
+
+All tests were successful, confirming that the network is fully functional and properly configured.
