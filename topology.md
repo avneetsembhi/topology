@@ -61,7 +61,7 @@ The logical topology represents how data flows within the network and how device
 
 ## 🖼️ Logical Topology Diagram
 
-![Logical Topology](./logical-topology.png)
+![Logical Topology](./logical-topology.PNG)
 
 ---
 
